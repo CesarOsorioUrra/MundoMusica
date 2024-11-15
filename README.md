@@ -1,2 +1,0 @@
-# MundoMusica
-Proyecto Mundo Música
