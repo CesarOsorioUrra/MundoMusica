@@ -1,0 +1,251 @@
+<style type="text/css">
+  body,html {
+    /* The image used */
+    background-image: url("FondosCSS/FondoPiano.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+
+    background-size: cover;
+  }
+</style>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mundo Música</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    
+
+
+<!--navbar se expande al alcanze el contexto lg, abajo de este se contrae-->
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid bg-">
+
+    <img src="logo_navbar.png" alt="logo_navbar" style="width: 4rem">
+        <a class="navbar-brand me-auto" href="#" style="font-family: fantasy; font-size: 2rem">Mundo Música</a>
+
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto me-auto" style>
+
+                <a class="btn btn-danger mx-2" role="button" href="Inicio.html" aria-disabled="true" style="color: white; font-size: 1.5rem;">Inicio</a>
+
+                <!--Para que dropdown funcione, en clase debe agregarse: data-bs-toggle="dropdown"-->
+
+                <div class="dropdown" >
+                  <button class="btn btn-primary mx-2 dropdown-toggle" type="button" style="color: white; font-size: 1.5rem;" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Instrumentos
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="InstrumentosViento.html">Viento</a>
+                    <a class="dropdown-item" href="InstrumentosCuerda.html">Cuerda</a>
+                    <a class="dropdown-item" href="InstrumentosTecla.html">Tecla</a>
+                    <a class="dropdown-item" href="InstrumentosPercusión.html">Percusión</a>
+                  </div>
+                </div>
+
+
+                <div class="dropdown">
+                  <button class="btn btn-primary mx-2 dropdown-toggle" style="color: white; font-size: 1.5rem;" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Estilos
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="EstilosRock.html">Rock</a>
+                    <a class="dropdown-item" href="EstilosJazz.html">Jazz</a>
+                    <a class="dropdown-item" href="EstilosUrbano.html">Urbano</a>
+                  </div>
+                </div>
+
+                <div class="dropdown">
+                  <button class="btn btn-primary mx-2 dropdown-toggle" style="color: white; font-size: 1.5rem;" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Teoría Musical
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="TeoríaLecturaDePentagramas.html">Lectura de pentagramas</a>
+                    <a class="dropdown-item" href="TeoríaEscalasMusicales.html">Escalas musicales</a>
+                    <a class="dropdown-item" href="TeoríaAcordesEnPiano.html">Acordes en piano</a>
+                    <a class="dropdown-item" href="TeoríaAcordesEnGuitarra.html">Acordes en guitarra</a>
+                  </div>
+                </div>   
+      </div>
+      <!--logos colapsan junto con dropdowns-->
+      <img src="logo2_navbar.png" alt="logo2_navbar" style="width: 4rem">
+      <img src="logo3_navbar.png" alt="logo3_navbar" style="width: 4rem">
+      <img src="logo4_navbar.png" alt="logo4_navbar" style="width: 4rem">
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid-lg bg-warning" style="text-align: center;">
+    <h1>Escalas Musicales: Modos</h1>
+
+</div>
+
+<div class="container bg-info-subtle" style="text-align: center; font-size: 1.3rem;">
+  <p>Cuando se escucha una canción, usualmente esta está construida por una secuencia de acordes cuyas notas encajan en alguna escala en particular. Usualmente, las canciones mayormente difundidas, se encuentran elaboradas en base a siete escalas particulares, las cuales presentan la caracteristica de exhibir ciertas emociones distintas al escucharlas con respecto a otras. Estas escalas se llaman "modos" los cuales se clasifican en: <b>Lídio, Jónico, Mixolidio, Dórico, Aeólico, Frígio, y Lócrio.</b></p> 
+
+  <p>Usualmente se suele referir al nivel de "brillo" de estos modos, donde se da que mientras más brillo presenta la escala, más "alegre" es el sonido que esta produce. Se da que el modo "Lídio" es el que presenta el sonido más "brillante", y el modo "Lócrio" suele ser llamada la escala con el sonido más "sombrío".</p>
+</div>
+                                    <!--LIDIO-->
+<div class="container bg-info" style="text-align: center; color: white;">
+    <h2>El modo Lídio (I-II-III-IV#-V-VI-VII-VIII)</h2>
+    <div class="row">
+
+        <div class="col-lg">
+          <p style="font-size: 1.5rem;"> El modo con más "brillo". El modo Lídio suele ser usado frecuentemente en videojuegos o películas de fantasía para generar sensasiones de magia, asombro, curiosidad, esperanza, o para ambientes "de otro mundo", ya sea de cuentos de hadas, el espacio exterior, el paraíso o bosques encantados. <br>Considerando como nota de partida a "C", está escala está compuesta por las notas: C-D-E-F#-G-A-B-C.</p>
+          <audio controls>
+            <source src="ESCALAS/lidia.mp3" type="audio/mpeg">
+          </audio> 
+        </div>
+        
+        <div class="col-lg"><img src="IMAGENES ESCALAS/lidio1.png" style="width: 35rem; height: 15rem;"><p></p>
+          <img src="IMAGENES ESCALAS/lidio2.png" style="width: 35rem; height: 15rem;"></div>   
+      </div>
+</div>
+
+                                    <!--JÓNICO-->
+<div class="container bg-secondary" style="text-align: center; color: white;">
+    <h2>El modo Jónico (I-II-III-IV-V-VI-VII-VIII)</h2>
+    <div class="row">
+
+        <div class="col-lg">
+          <p style="font-size: 1.5rem;"> El segundo modo más "brillante". Se diferencia del modo Lídio porque la nota "IV#" se bajó a "IV". Este modo equivale a la "escala mayor", la cual suele ser llamada como la escala que genera los "acordes felices". Es de las más usadas (si no es que la más usada) en la música popular debido a su sonido fácilmente "digerible" por el oyente común debido a que genera una sensación amigable y de estabilidad. <br>Considerando como nota de partida a "C", está escala está compuesta por las notas: C-D-E-F-G-A-B-C.</p>
+          <audio controls>
+            <source src="ESCALAS/jonica.mp3" type="audio/mpeg">
+          </audio> 
+        </div>
+        
+        <div class="col-lg"><img src="IMAGENES ESCALAS/jonico1.png" style="width: 35rem; height: 15rem;"><p></p>
+          <img src="IMAGENES ESCALAS/jonico2.png" style="width: 35rem; height: 15rem;"></div>
+      </div>
+</div>
+
+                                    <!--MIXOLIDIO-->
+<div class="container bg-danger" style="text-align: center; color: white;">
+    <h2>El modo Mixolidio (I-II-III-IV-V-VI-VIIb-VIII)</h2>
+    <div class="row">
+
+        <div class="col-lg">
+          <p style="font-size: 1.5rem;"> El tercer modo con más "brillo". Se diferencia del modo Jónico poque se baja de "VII" a "VIIb". También es frecuentemente usado en la música popular, además de en la música "Folk" o "Country". Genera una sensación algo "despreocupada" o en algunos casos incluso algo "alocada". Suele usarse comunmente acompañando a otras escalas o como acorde de paso, por ejemplo cuando se está tocando un acorde base "C" (modo Jónico) y luego se pasa al acorde "C7" (modo Mixolidio). <br>Considerando como nota de partida a "C", está escala está compuesta por las notas: C-D-E-F-G-A-Bb-C.</p>
+          <audio controls>
+            <source src="ESCALAS/mixolidia.mp3" type="audio/mpeg">
+          </audio> 
+        </div>
+        
+        <div class="col-lg"><img src="IMAGENES ESCALAS/mixolidio1.png" style="width: 35rem; height: 15rem;"><p></p>
+          <img src="IMAGENES ESCALAS/mixolidio2.png" style="width: 35rem; height: 15rem;"></div>
+      </div>
+</div>
+
+                                    <!--DÓRICO-->
+<div class="container bg-success" style="text-align: center; color: white;">
+    <h2>El modo Dórico (I-II-IIIb-IV-V-VI-VIIb-VIII)</h2>
+    <div class="row">
+
+        <div class="col-lg">
+          <p style="font-size: 1.5rem;"> El modo con brillo intermedio. Se diferencia del modo Mixolidio poque se baja de "III" a "IIIb". Suele ser ocupada en música que intenta recreae un sonido "Medieval". También usada en música "Funk". Presenta un sonido "sofisticado" y "de blues". Considerando como nota de partida a "C", está escala está compuesta por las notas: C-D-Eb-F-G-A-Bb-C.</p>
+          <audio controls>
+            <source src="ESCALAS/dorica.mp3" type="audio/mpeg">
+          </audio> 
+        </div>
+        
+        <div class="col-lg"><img src="IMAGENES ESCALAS/dorico1.png" style="width: 35rem; height: 15rem;"><p></p>
+          <img src="IMAGENES ESCALAS/dorico2.png" style="width: 35rem; height: 15rem;"></div>
+      </div>
+</div>
+
+                                    <!--AEÓLICO-->
+<div class="container bg-dark-subtle" style="text-align: center; color: black;">
+    <h2>El modo Aeólico (I-II-IIIb-IV-V-VIb-VIIb-VIII)</h2>
+    <div class="row">
+
+        <div class="col-lg">
+          <p style="font-size: 1.5rem;"> El tercer modo más oscuro. Se diferencia del modo Mixolidio poque se baja de "VI" a "VIb". Tambien llamada la "escala menor", al igual que la escala Jónica es de las más usadas en la música popular. Es la escala base para los acordes menores, los cuales son usualmente catálogados como los "acordes tristes", aunque en otras situaciones también pueden emitir seriedad o incluso se pueden usar para transmitir la sensación de "epicididad". <br>Considerando como nota de partida a "C", está escala está compuesta por las notas: C-D-Eb-F-G-Ab-Bb-C. Si se analizan las notas que componen a esta escala, uno puede darse cuenta que las notas del modo Aeólico en "C" son las mismas que del modo Jónico en "Eb", por lo tanto las escalas Jónicas y Aeólicas son usadas en conjunto.</p>
+          <audio controls>
+            <source src="ESCALAS/aeolica.mp3" type="audio/mpeg">
+          </audio> 
+        </div>
+        
+        <div class="col-lg"><img src="IMAGENES ESCALAS/aeolico1.png" style="width: 35rem; height: 15rem;"><p></p>
+          <img src="IMAGENES ESCALAS/aeolico2.png" style="width: 35rem; height: 15rem;"></div>
+      </div>
+</div>
+
+                                    <!--FRÍGIO-->
+<div class="container bg-primary" style="text-align: center; color: white;">
+    <h2>El modo Frígio (I-IIb-IIIb-IV-V-VIb-VIIb-VIII)</h2>
+    <div class="row">
+
+        <div class="col-lg">
+          <p style="font-size: 1.5rem;"> El segundo modo más oscuro. Se diferencia del modo Aeólico poque se baja de "II" a "IIb". Presnta un sonido exotico, mistico, intenso y oscuro. Usada en música rock, y en música española de tipo "flamenco". Considerando como nota de partida a "C", está escala está compuesta por las notas: C-Db-Eb-F-G-Ab-Bb-C.</p>
+          <audio controls>
+            <source src="ESCALAS/frigia.mp3" type="audio/mpeg">
+          </audio> 
+        </div>
+        
+        <div class="col-lg"><img src="IMAGENES ESCALAS/frigio1.png" style="width: 35rem; height: 15rem;"><p></p>
+          <img src="IMAGENES ESCALAS/frigio2.png" style="width: 35rem; height: 15rem;"></div>
+      </div>
+</div>
+
+                                    <!--LÓCRIO-->
+<div class="container bg-dark" style="text-align: center; color: white;">
+    <h2>El modo Lócrio (I-IIb-IIIb-IV-Vb-VIb-VIIb-VIII)</h2>
+    <div class="row">
+
+        <div class="col-lg">
+          <p style="font-size: 1.5rem;"> El modo más oscuro. Se diferencia del modo Frígio porque se baja de "V" a "Vb". Consideradá como la "escala disminuida", debido a que es la base para los acordes disminuidos (I-IIIb-Vb y variantes). Esta escala es muy raramente usada, debido a que presenta un sonido mayoritariamente tenso, inestable y preocupante, por lo cual crear una canción agradable ocupando esta escala es una difícil tarea. <br>A veces usada en música clásica, improvisaciones de jazz, metal y música experimental. Considerando como nota de partida a "C", está escala está compuesta por las notas: C-Db-Eb-F-Gb-Ab-Bb-C.</p>
+          <audio controls>
+            <source src="ESCALAS/locria.mp3" type="audio/mpeg">
+          </audio> 
+        </div>
+        
+        <div class="col-lg"><img src="IMAGENES ESCALAS/locrio1.png" style="width: 35rem; height: 15rem;"><p></p>
+          <img src="IMAGENES ESCALAS/locrio2.png" style="width: 35rem; height: 15rem;"></div>
+      </div>
+</div>
+
+<div class="container bg-info-subtle" style="text-align: center; font-size: 1.3rem;">
+<p> Esos son los 7 modos, ordenados de más "brillo" a menos "brillo". Algunos modos son mucho más usados que otros y algunos serán más agradables al oído para otras personas que otras, pero todos tienen sus sonidos característicos que ayudan a dar ambientación y emoción a una canión.</p> 
+<p> Aún asi, estos modos no son todos los existentes, debido a que cada uno de estos tienen sus propias variantes, por ejemplo si a la escala Frígia (I-IIb-IIIb-IV-V-VIb-VIIb-VIII) se le aumenta la nota "VIb" a "VI" entonces se transforma en la escala "Frígia dominante", usada comúnmente en la música árabe. Existe además, la escala pentatónica, de 5 notas, la cual suele asociarse con la música tradicional del lejano oriente.</p> 
+
+    <audio controls>
+      <source src="ESCALAS/pentatonica.mp3" type="audio/mpeg">
+    </audio> 
+    <p>Escala pentatonica.</p>
+
+
+<p>También existe la "escala alterada" (I-IIb-IIIb-IVb-Vb-VIb-VIIb-VIII) la cual se caracteriza por su sonido grandemente disonante y agresivo, y a pesar de eso se ocupa usualmente en la música popular, además del jazz, el blues y el funk. </p> 
+
+
+    <audio controls>
+      <source src="ESCALAS/alterada.mp3" type="audio/mpeg">
+    </audio>
+    <p>Escala alterada.</p>
+</div>
+
+<div class="container-fluid-lg bg-dark" style="color: white; text-align: center">
+  <footer>IPVG 2024. Todos los derechos resevados.</footer>
+</div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
